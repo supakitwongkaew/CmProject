@@ -1,39 +1,40 @@
 import React from 'react';
 import * as GiWhiteIcons from 'react-icons/gi';
 export const SidebarData = [
+
   {
-    title: 'Chapter 1',
-    path: '/',
+    title: 'B2s',
+    path: '/chapter1',
     icon: <GiWhiteIcons.GiWhiteBook />,
     cName: 'nav-text'
   },
   {
-    title: 'Chapter 2',
-    path: '/Chapter2',
+    title: 'Linear Equations',
+    path: '/chapter2',
     icon: <GiWhiteIcons.GiWhiteBook />,
     cName: 'nav-text'
   },
   {
-    title: 'Chapter 3',
-    path: '/Chapter3',
+    title: 'Interpolation',
+    path: '/chapter3',
     icon: <GiWhiteIcons.GiWhiteBook />,
     cName: 'nav-text'
   },
   {
-    title: 'Chapter 4',
-    path: '/Chapter4',
+    title: 'Differentiation',
+    path: '/chapter4',
     icon: <GiWhiteIcons.GiWhiteBook />,
     cName: 'nav-text'
   },
   {
-    title: 'Chapter 5',
-    path: '/Chapter5',
+    title: 'Integration',
+    path: '/chapter5',
     icon: <GiWhiteIcons.GiWhiteBook />,
     cName: 'nav-text'
   },
   {
-    title: 'Chapter 6',
-    path: '/Chapter6',
+    title: 'Root-Finding',
+    path: '/chapter6',
     icon: <GiWhiteIcons.GiWhiteBook />,
     cName: 'nav-text'
   }

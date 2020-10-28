@@ -7,13 +7,14 @@
   font-family: 'Lato', sans-serif;
 }
 
-.chapter1, .chapter2, .chapter3,.chapter4,.chapter5,.chapter6 {
+.home,.chapter1, .chapter2, .chapter3,.chapter4,.chapter5,.chapter6 {
   
   height: 90vh;
   align-items: center;
   justify-content: center;
   font-size: 2rem;
   text-align: center;
+  margin: 1%;
 }
 
 input[type=text] {
@@ -37,14 +38,44 @@ input[type=text] {
   border: 2px solid #555555;
 }
 
+.button6 {
+  background-color:brown;
+  color: white;
+  border: 2px solid #555555;
+}
+.button4 {
+  background-color:blueviolet;
+  color: white;
+  border: 2px solid #555555;
+}
+.button3 {
+  background-color:skyblue;
+  color: white;
+  border: 2px solid #555555;
+}
+.button2 {
+  background-color:grey;
+  color: white;
+  border: 2px solid #555555;
+}
+.button1 {
+  background-color:goldenrod;
+  color: white;
+  border: 2px solid #555555;
+}
+
 .button5:hover {
   background-color: #555555;
   color: white;
 }
+
 font.text1{
   font-size: 2rem;
   padding: 5px;
   color: white;
+}
+.f2{
+  font-size: 1rem;
 }
 
 /* .chapter1, .chapter2, .chapter3,.chapter4,.chapter5,.chapter6{

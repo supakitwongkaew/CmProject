@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Home from './pages/main';
 import Chapter1 from './pages/Chapter1';
 import Chapter2 from './pages/Chapter2';
 import Chapter3 from './pages/Chapter3';
@@ -16,7 +17,8 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route path='/' exact component={Chapter1} />
+          <Route path='/' exact component={Home} />
+          <Route path='/chapter1'component={Chapter1} />
           <Route path='/chapter2' component={Chapter2} />
           <Route path='/chapter3' component={Chapter3} />
           <Route path='/chapter4' component={Chapter4} />
